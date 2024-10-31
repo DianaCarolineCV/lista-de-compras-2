@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "name": "Maçã",
+      "bought": true,
+      "id": "090f"
+    },
+    {
+      "id": "1e81",
+      "name": "Uva",
+      "bought": false
+    },
+    {
+      "id": "e500",
+      "name": "Banana",
+      "bought": false
+    }
+  ]
+}

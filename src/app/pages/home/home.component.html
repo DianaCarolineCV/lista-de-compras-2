@@ -1,0 +1,12 @@
+<div class="home-container">
+  <h1>Home</h1>
+  
+  @if(auth.isAuthenticated$ | async){
+  <p>Bem-vindo, {{ (auth.user$ | async)?.name }}!</p>
+  <app-lista></app-lista>
+  } 
+  @else {
+    <p class="logged-out">Olá, se cadastre para ter acesso à lista de compras!</p>
+  
+  }
+</div>
